@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: oldlace;
+}
+
+h1 {
+    text-align: center;
+    color: olive;
+    margin: 2rem;
+}
+
+
+/******************************************************
+                      MAIN
+******************************************************/
+
+.score_container, #result, #computer-choice  {
+    margin: 2rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+#computer-choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0 2rem;
+    transition: all .5s;
+}
+
+.img img:hover {
+    width: 130px;
+    height: 130px;
+}
+
